@@ -6188,6 +6188,17 @@ border-radius: 30px;
 
 }
 
+.privacycontent ul li{
+	color: White !important;
+
+}
+
+.privacycontent h5{
+	font-weight: 900;
+}
+.privacycontent p{
+	color: White;
+}
 
 @media(max-width:1100px)
 {
