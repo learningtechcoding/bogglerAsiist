@@ -1254,6 +1254,14 @@ label {
 	padding: 205px 0 150px;
 	position: relative;
 }
+
+.banner-area p{
+	color: #ABABAB !important;
+}
+.banner-area li{
+	color:  #ABABAB !important;
+}
+
 .banner-content {
 	text-align: center;
 }
@@ -6314,7 +6322,7 @@ font-weight: 900;
 	font-weight: 900;
 }
 .privacycontent p{
-	color: White;
+	color: White !important;
 }
 
 
