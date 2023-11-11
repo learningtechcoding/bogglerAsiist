@@ -1487,11 +1487,12 @@ label {
 }
 .banner-content-three .title span {
 	font-family: var(--tg-playfair-font-family);
+	color: #00acee;
 	font-style: italic;
 	font-weight: 500;
 }
 .banner-content-three p {
-	color: var(--tg-gray-three);
+	/* color: var(--tg-gray-three); */
 	width: 75%;
 	margin: 0 auto;
 	font-size: 18px;
@@ -2039,9 +2040,9 @@ label {
 	font-size: 60px;
 	margin-bottom: 0;
 	letter-spacing: -0.02em;
-	background: linear-gradient(180deg, #F0F0F0 7.14%, #171717 122.86%);
+	/* background: linear-gradient(180deg, #F0F0F0 7.14%, #171717 122.86%); */
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	/* -webkit-text-fill-color: transparent; */
 	background-clip: text;
 }
 .section-title-three .title span {
@@ -6279,8 +6280,21 @@ left: 240px;
 	font-weight: 900;
 }
 
+.Assistlogo{
+	position: relative;
+	 
+}
+.Assistlogo .logoTM{
+	position: absolute;
+	top: 10px;
+	right: -25px;
+	font-style: normal !important;
+	font-size: 14px; color: White;
+}
+
 .Assistlogo span{
 	color: #38B6FF;
+	font-style: italic;
 }
  
 
