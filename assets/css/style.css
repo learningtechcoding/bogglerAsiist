@@ -462,8 +462,9 @@ label {
 	#7746E6 73.27%, #5A71F1 89.06%, #439EFF 101.36%);
 }
 .gradient-btn.gradient-btn-four {
-	background: linear-gradient(89.69deg,#5CE0E6  36.5%,#004AAD  98.77%);
-	/* background: #5CE0E6 !important; */
+ 
+	background: linear-gradient(89.69deg, #5CE0E6 36.5%, #004AAD 98.77%) !important;
+ 
 	border-radius: 5px;
 	/* color: var(--tg-black-three); */
 }
@@ -2116,7 +2117,7 @@ label {
 	top: -1px;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(128.25deg, #FDCF6D 2.16%, rgba(34, 35, 37, 0) 26.09%);
+	background: linear-gradient(128.25deg, #5CE0E6 2.16%, rgba(34, 35, 37, 0) 26.09%);
 	border-radius: 20px;
 	z-index: -2;
 	transition: .3s linear;
@@ -2129,7 +2130,7 @@ label {
 	bottom: -1px;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(313.87deg, #38B6FF 2.61%, rgba(0, 195, 154, 0) 22.43%);
+	background: linear-gradient(313.87deg, #004AAD 2.61%, rgba(0, 195, 154, 0) 22.43%);
 	border-radius: 20px;
 	z-index: -2;
 	transition: .3s linear;
@@ -4057,7 +4058,7 @@ label {
 	align-items: center;
 	gap: 5px;
 	font-size: 18px;
-	color: #68538F;
+	color: #5CE0E6;
 	margin-bottom: 22px;
 }
 .testimonial-content p {
@@ -6251,6 +6252,20 @@ font-weight: 900;
 	height: 100%; */
 	
 }
+@media (min-width : 1000px) and (max-width:1200px){
+	.services-item-two{
+		height: 100% !important;
+	}
+	.wlevatecard{
+		height: 100%;
+	}
+}
+
+@media(max-width:300px){
+	.wlevatecard{
+		height: 100%;
+	}
+}
 
 .wlevatecard h4{
 	font-weight: 800;
@@ -6443,3 +6458,51 @@ border-radius: 30px;
 
 
 /*##########> Custom Style End <############ */
+/* New Code  */
+.customBlue{
+	color: #38B6FF !important;
+}
+.login-right-content-inner .title{
+	font-size: 3rem !important;
+}
+.login-right-content-inner .title span{
+	font-style: italic;
+}
+.login-right-content-inner span {
+    background: #38B6FD;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #38B6FD !important;
+    background-clip: text;
+}
+.title sup{
+	font-size: 12px !important;
+	top: -28px;
+}
+.title p{
+	display: inline;
+	font-size: 3rem;
+	color: white !important;
+}
+.section-title-three .title {
+	/* font-size: 10px; */
+	background-color: rebeccapurple !important;
+}
+.normalBold span{
+	font-style: normal !important;
+	color: #38B6FF !important;
+	/* font-size: 4.5rem; */
+}
+.normalBold sup{
+	/* top: - 30%; */
+	/* left: 2%; */
+}
+.normalBold{
+	font-weight: 400 !important;
+}
+.services-item-two::before {
+    background: #2D2D2D;
+}
+.HeadSup{
+	font-size: 1rem;
+	top: -28px;
+}
